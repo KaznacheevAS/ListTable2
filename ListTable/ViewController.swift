@@ -9,11 +9,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet  private weak var imagesCover: UIImageView!
+    @IBOutlet private weak var titleLabel: UILabel!
+    
+    var track: ListTugle!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        imagesCover.image = UIImage(named: "\(track.artist)")
+        titleLabel.text = track.song
     }
-
-
 }
 

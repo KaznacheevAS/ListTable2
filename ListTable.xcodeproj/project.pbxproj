@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB184E872909AA9B001787E9 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB184E862909AA9B001787E9 /* ListTableViewController.swift */; };
+		AB184E892909AAF4001787E9 /* Muse+Structura.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB184E882909AAF4001787E9 /* Muse+Structura.swift */; };
 		AB5663C42907B593002BCBD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5663C32907B593002BCBD9 /* AppDelegate.swift */; };
 		AB5663C62907B593002BCBD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5663C52907B593002BCBD9 /* SceneDelegate.swift */; };
 		AB5663C82907B593002BCBD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5663C72907B593002BCBD9 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB184E862909AA9B001787E9 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		AB184E882909AAF4001787E9 /* Muse+Structura.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Muse+Structura.swift"; sourceTree = "<group>"; };
 		AB5663C02907B593002BCBD9 /* ListTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5663C32907B593002BCBD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB5663C52907B593002BCBD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				AB5663CC2907B595002BCBD9 /* Assets.xcassets */,
 				AB5663CE2907B595002BCBD9 /* LaunchScreen.storyboard */,
 				AB5663D12907B595002BCBD9 /* Info.plist */,
+				AB184E862909AA9B001787E9 /* ListTableViewController.swift */,
+				AB184E882909AAF4001787E9 /* Muse+Structura.swift */,
 			);
 			path = ListTable;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB184E892909AAF4001787E9 /* Muse+Structura.swift in Sources */,
 				AB5663C82907B593002BCBD9 /* ViewController.swift in Sources */,
 				AB5663C42907B593002BCBD9 /* AppDelegate.swift in Sources */,
 				AB5663C62907B593002BCBD9 /* SceneDelegate.swift in Sources */,
+				AB184E872909AA9B001787E9 /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
